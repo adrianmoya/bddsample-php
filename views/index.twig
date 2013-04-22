@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejemplo BDD en PHP</title>
+    </head>
+    <body>
+        <form id="calc_form" method="POST" action="index.php">
+	    <label for="numero1">Numero 1:</label><input type="text" id="numero1" name="numero1" value="{{ numero1 }}"/><br/>
+	    <label for="numero1">Numero 2:</label><input type="text" id="numero2" name="numero2" value="{{ numero2 }}"/><br/>
+	    <input id="btn_calcular" type="submit" value="Calcular"/>
+	</form>
+	<div id="resultado">{{ resultado }}</div>
+    </body>
+</html>

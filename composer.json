@@ -1,0 +1,19 @@
+{
+    "name": "adrianmoya/bddsample",
+    "description": "Un ejemplo sencillo de BDD con PHP",
+    "license": "MIT",
+    "require": {
+        "silex/silex": "1.0.*@dev",
+	"twig/twig": ">=1.8,<2.0-dev"
+    },
+    "require-dev": {
+        "behat/behat": "2.4.*@stable",
+	"behat/mink-extension": "*",
+	"behat/mink": "1.4@stable",
+	"behat/mink-goutte-driver": "*",
+	"phpunit/phpunit": "3.7.*"
+    }
+    "config": {
+        "bin-dir": "bin/"
+    }
+}

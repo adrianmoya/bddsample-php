@@ -1,0 +1,11 @@
+default:
+  paths:
+    features: behat/features
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: http://localhost/bddsample
+      goutte: ~
+  formatter:
+    name: pretty,html
+    parameters:
+      output_path: null, behat/html-report/behat_report.html
