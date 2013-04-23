@@ -1,3 +1,4 @@
 vendor/
 bin/
 behat/html-report/
+/nbproject/private/
